@@ -1,82 +1,115 @@
-<!-- Profile README for github.com/celiaricogz -->
-
 <h1 align="center">Celia Rico Gutiérrez</h1>
-<h3 align="center">DevOps / Platform Engineer • CI/CD (Jenkins) • Docker • Observability • Terraform/Cloud</h3>
+<h3 align="center">
+  IT Architect · Legacy Modernization · CI/CD · FinOps · DevOps
+</h3>
 
 <p align="center">
-  I help teams <b>deploy without fear</b>: I modernize CI/CD pipelines, automate reliable deployments, and set up observability so systems can be operated with confidence.
+  I specialize in evolving complex systems in regulated enterprise environments —<br>
+  making legacy move forward <b>without breaking what already works</b>.
 </p>
 
 <p align="center">
-  <a href="https://www.malt.es/profile/celiaricogutierrez" target="_blank"><img alt="Malt" src="https://img.shields.io/badge/Malt-Profile-FF5A5F?style=for-the-badge"></a>
-  <a href="https://www.linkedin.com/in/celiaricogutierrez" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge"></a>
-  <a href="https://github.com/celiaricogz" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge"></a>
+  <a href="https://celiarico.dev" target="_blank">
+    <img alt="Web" src="https://img.shields.io/badge/celiarico.dev-000000?style=for-the-badge&logo=firefox&logoColor=white">
+  </a>
+  <a href="https://www.linkedin.com/in/celiaricogutierrez" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://www.malt.es/profile/celiaricogutierrez" target="_blank">
+    <img alt="Malt" src="https://img.shields.io/badge/Malt-FF5A5F?style=for-the-badge">
+  </a>
 </p>
 
 ---
 
-## What I do (what clients hire me for)
+## What I do
 
-### ✅ CI/CD Modernization (Jenkins / GitLab CI / GitHub Actions)
-- Build/test/release pipelines that are **clean, fast, and maintainable**
-- **Caching, parallelization, quality gates**
-- Release strategy: **versioning, tagging, rollback-ready workflows**
+### IT Architecture & Legacy Modernization
+- Incremental evolution of legacy systems — no big-bang rewrites
+- Architectural decisions with real consequences in production
+- Regulated and critical environments: healthcare, defense, aerospace
 
-### ✅ Reliable Deployments (Docker + Automation)
-- Reproducible deployments and environment standardization
-- Reduced manual steps → fewer production errors
-- Clear handover docs so teams can operate confidently
+### CI/CD & Automation
+- Reusable pipeline frameworks (Jenkins Shared Libraries, GitHub Actions)
+- Build, test, release and deployment automation at scale
+- Tooling that teams can own, maintain and extend
 
-### ✅ Observability & Operations
-- Logs, metrics and alerts (**Grafana / Prometheus / Loki** or similar)
-- Dashboards + actionable alerting
-- Reliability foundations: runbooks and incident readiness
+### FinOps & Cloud Cost Optimization
+- Multi-cloud cost visibility (AWS + Azure + GCP)
+- Building [FinOps Observatory](https://github.com/celiaricogz/finops-observatory) — open platform for cloud cost optimization
+- Actionable insights, not just dashboards
 
-### 🛠️ Currently expanding into IaC / Cloud
-- Terraform foundations and cloud infrastructure baselines to deliver end-to-end platform automation
-
----
-
-## Featured work
-
-> A small, curated set of projects focused on delivery, automation and reliability.
-
-- **CI/CD Templates** — reusable pipelines & standards  
-  🔗 https://github.com/celiaricogz/ci-cd-templates
-
-- **Dockervisor** — manage & monitor Dockerized services  
-  🔗 https://github.com/celiaricogz/dockervisor
-
-- **GitLab Project Version Packager** — automate packaging & versioning  
-  🔗 https://github.com/celiaricogz/gitlab-project-version-packager
-
-- **Auto Installer Debian** — automated Linux environment setup  
-  🔗 https://github.com/celiaricogz/auto-installer-debian
+### Observability & Operations
+- Logs, metrics and alerts (Grafana · Prometheus · Loki · ELK)
+- Runbooks and incident readiness for critical systems
 
 ---
 
-## Case study (real project)
+## FinOps Observatory
+> Multi-cloud cost visibility and optimization platform for mid-market companies.
+> AI-powered actionable insights · AWS + Azure + GCP · On-premise deployable.
 
-### Jenkins migration & pipeline modernization (private client)
-**Context:** legacy CI/CD, fragile pipelines, manual deployments  
-**What I delivered:**
-- Jenkins pipeline modernization and migration
-- Updated build/test/deploy workflows
-- Documentation + handover for long-term maintainability
-
-**Outcome:** more stable deployments and faster iteration without breaking releases.
+**Status:** active development · Python · FastAPI · PostgreSQL · Docker · Claude API
+🔗 [github.com/celiaricogz/finops-observatory](https://github.com/celiaricogz/finops-observatory)
 
 ---
 
-## How I work
+## Featured projects
 
-1) **Short technical audit** → identify bottlenecks & quick wins  
-2) **Roadmap by phases** → clear scope, deliverables, timelines  
-3) **Implementation + documentation** → enable teams and ensure maintainability
+| Project | Description | Stack |
+|---|---|---|
+| [finops-observatory](https://github.com/celiaricogz/finops-observatory) | Multi-cloud cost optimization platform | Python · FastAPI · Docker |
+| [jenkins-modernization-playbook](https://github.com/celiaricogz/jenkins-modernization-playbook) | Practical guide for modernizing legacy Jenkins pipelines | Jenkins · Groovy · Docs |
+| [ci-cd-templates](https://github.com/celiaricogz/ci-cd-templates) | Reusable pipeline standards for GitLab and GitHub | Jenkins · Groovy · GitHub Actions |
+| [dockervisor](https://github.com/celiaricogz/dockervisor) | Observability stack: Grafana + Prometheus + Loki | Docker Compose |
+| [auto-installer-debian](https://github.com/celiaricogz/auto-installer-debian) | Modular automated setup for Debian/Ubuntu environments | Bash |
+
+---
+
+## Case study — Jenkins migration & CI/CD modernization
+
+**Client:** mid-size enterprise (via Malt)
+**Context:** fragile legacy CI/CD, manual deployments, no shared standards across teams
+
+**Delivered:**
+- Standardized CI/CD framework adopted as common reference across **15 related projects**
+- Reusable Jenkins Shared Libraries in Groovy — consistent build, quality and deploy patterns
+- Shared library architecture designed for extensibility to future projects
+- Automated deployments to Oracle WebLogic 11g and 14c via WLST
+- Stabilized complex multi-module Maven projects with refactored legacy POM structures
+
+**Outcome:** stable, repeatable deployments with full documentation and team handover.
+
+---
+
+## Currently
+
+```text
+Role        Cross IT Architect @ Sanitas
+Building    FinOps Observatory — multi-cloud cost optimization platform
+Studying    CKA (Certified Kubernetes Administrator)
+Location    Madrid, Spain · Remote-first
+```
+
+---
+
+## Stack
+
+```text
+Languages   Python · Java · Groovy · Bash
+CI/CD       Jenkins · GitHub Actions · GitLab CI
+Infra       Docker · Kubernetes · Terraform
+Cloud       AWS · Azure · GCP
+Observ.     Grafana · Prometheus · Loki · ELK
+DB          PostgreSQL · InfluxDB
+```
 
 ---
 
 ## 📫 Contact
 
-- Malt: https://www.malt.es/profile/celiaricogutierrez  
-- LinkedIn: https://www.linkedin.com/in/celiaricogutierrez  
+Available for architecture consulting, legacy modernization and FinOps engagements.
+
+- 🌐 [celiarico.dev](https://celiarico.dev)
+- 💼 [Malt](https://www.malt.es/profile/celiaricogutierrez)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/celiaricogutierrez)
